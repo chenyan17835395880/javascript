@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>分支结构</title>
+</head>
+<body>
+	<script>
+		/*
+		num 正数>0   alert(1)
+		 */
+		// var num=5;
+		// if (num>0) {
+		// 	alert(1);
+		// }
+
+
+		/*
+		num 偶数 alert(true)
+		num 奇数 alert(false)
+		 */
+		// var num=33;
+		// if (num%2==0) {
+		// 	alert(true);
+		// }else{
+		// 	alert(false);
+		// }
+		
+
+		/*三元表达式*/
+		// var num=21;
+		// num%2==0?alert(true):alert(false);
+
+
+		/*
+		90-100 优秀
+		80-90 良好
+		70-80 中
+		60-70 及格
+		0-60 不及格
+		 */
+		var score=prompt("请输入你的成绩",10)
+		if (score>=90 && score<=100) {
+			alert("优秀");
+		}else if (score>=80 && score<90) {
+			alert("良好");
+		}else if (score>=70 && score<80) {
+			alert("中");
+		}else if (score>=60 && score<70) {
+			alert("及格");
+		}else if (score>=0 && score<60) {
+			if (score>=0 && score<30) {
+				alert("努力")
+			}else if (score>=30 && score<60) {
+				alert("更努力")
+			}
+		}else{
+			alert("输入错误");
+		}
+	</script>
+</body>
+</html>
